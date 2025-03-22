@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device, initial-scale=1">
+        <title>Listify</title>
+        <link rel="icon" href="images/todo-image.png" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="todo-box">
+                <h2>Listify <img src="images/todo-image.png"></h2>
+                <div class="row">
+                    <input type="text"id="input-box">
+                    <button onclick="addTask()">Add</button>
+                </div>
+                <div class="todays-tasks">
+                    <h3>Today</h3>
+                    <ul id="list-container-today"></ul>
+                </div>
+                <div class="all-tasks">
+                    <h3>All</h3>
+                    <ul id="list-container-all"></ul>
+                </div>
+                
+            </div>
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>
